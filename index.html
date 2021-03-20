@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<!-- Tytuł strony, wyświetlany w zakładkach -->
+		<title>Moja strona domowa</title>
+		<!-- Kodowanie strony, zapewnia poprawne wyświetlanie np. polskich znaków -->
+		<meta charset="utf-8">
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<!-- Bootstrap JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<!-- Bootstrap Ikony -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+		<!-- Podłączamy nasz plik css ze stylami, co pozwoli nam na łatwą zmianę wyglądu strony -->
+		<link rel="stylesheet" href="assets/css/main.css">
+		<!-- Dodajemy plik css biblioteki galerii JavaScript -->
+		<link rel="stylesheet" href="assets/css/grid-gallery.min.css">
+	</head>
+	<body>
+		<!-- Nawigacja - menu -->
+		<nav class="navbar navbar-expand sticky-top navbar-dark moj-kolor">
+			<div class="container-fluid">
+				<div class="navbar-collapse">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#sekcja1">
+								Strona główna
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sekcja2">
+								Zabytki
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sekcja3">
+								Mapa
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="formularz.html">
+								Formularz
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Sekcja powitalna -->
+		<div class="container" id="sekcja1">
+			<div class="row">
+				<div class="col-4" >
+					<h1 id="powitanie">
+						Toruńskie zabytki 
+					</h1>
+					<img  class = "photo" src="assets/images/panorama.JPG" />
+				</div>
+				
+				<div class = "col-4" id = "wstep" >
+					<p>
+						Toruń to jedno z najbogatszych w zabytki miast Polski. Poza dużą liczbą zabytki toruńskie wyróżniają się też wkładem w historię sztuki, wysokim poziomem oraz oryginalnością. Zabytki toruńskie - ich  międzynarodowa ranga artystyczna i historyczna, uznana przez UNESCO za najwyższą wartość w skali światowej - to świadectwo i spuścizna po minionej, przedrozbiorowej świetności Torunia - jednego z największych, najbogatszych i autonomicznych miast Rzeczypospolitej. Pomimo imponującej dziś dużej liczby toruńskich zabytków nieruchomych (w ewidencji zabytków architektury znajduje się ok. 2700 obiektów, w tym ok. 410 najcenniejszych), jak również ich wysokiej klasy artystycznej, należy pamiętać, że to, co zachowało się do dziś i wzbudza podziw i zachwyt oglądających, jest jedynie cieniem dawnej świetności architektonicznej Torunia. Wiele bowiem wspaniałych i wyjątkowych obiektów dziś już nie istnieje - zostały rozebrane przede wszystkim w XIX w. w dobie wojen napoleońskich i zaboru pruskiego; w tym miejscu dla przykładu można wskazać choćby imponujący zespół klasztorny dominikanów z kościołem św. Mikołaja na Nowym Mieście, inne gotyckie kościoły: św. Jerzego, św. Wawrzyńca, także dawny ratusz nowomiejski, średniowieczny Dwór Artusa, ponadto liczne bramy, baszty i długie odcinki murów miejskich, a w końcu całe mnóstwo stylowych kamienic patrycjuszowskich gotyckich, renesansowych, bogato zdobionych i charakterystycznych dla Torunia jako dawnego miasta hanzeatyckiego i kultury północnoeuropejskiej.
+					</p>
+				</div>
+				
+				<div class = "col-1">
+				</div>
+				
+				<div class = "col-2"  >
+				
+					<div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/en/city/756135"><span style="color:gray;">Aktualny czas w</span><br />Warszawa, Polska</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Europe%2FWarsaw" width="100%" height="115" frameborder="0" seamless></iframe> </div>
+					
+					<iframe src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=2&amp;bgcolor=%23F09300&amp;ctz=Europe%2FWarsaw&amp;src=cGwucG9saXNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=MONTH" style="border:solid 1px #777" width="280" height="250" frameborder="0" scrolling="no"></iframe>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- Sekcja o mnie -->
+		<div class="container" id="sekcja2">
+				
+			<div class="row" >
+				<!-- Pierwsza kolumna -->
+				<div class="col-3"  id = "tekst" style = "margin-left: 10%">
+				<img  class = "photo" src="assets/images/ratusz.JPG" />
+					<h1> Ratusz Staromiejski </h1>
+					<p>
+					Stojący pośrodku Rynku Staromiejskiego monumentalny Ratusz Staromiejski jest jedną z największych, najwspanialszych tego typu budowli w Europie. Jest prawdziwym pomnikiem świetności Torunia, dawnego emporium handlowego Hanzy. Powstał w końcu XIV wieku, tj. w okresie szczytowego rozwoju średniowiecznego Starego Miasta Torunia, w oparciu o przywilej wielkiego mistrza krzyżackiego, Konrada von Wallenrode.
+					</p>
+					
+				</div>
+				
+				<!-- Druga kolumna -->
+				<div class="col-3" id = "tekst">
+				<img  class = "photo" src="assets/images/NMP.JPG" />
+					<h1> Kościół Mariacki </h1>
+					<p>
+					Kościół Mariacki w Toruniu jest przykładem architektury gotyckiej rangi światowej. To jedno z najwybitniejszych osiągnięć gotyckiego budownictwa sakralnego na obecnych ziemiach polskich; kościół halowy zaliczany do największych świątyń gotyckich w Polsce. Wysmukła, monumentalna budowla pofranciszkańska, górująca nad północną częścią Starego Miasta, posiada cenne artystycznie i historycznie zabytki wyposażenia wnętrza: m.in. gotyckie stalle i polichromie ścienne, wielkie renesansowe organy należące do najstarszych i najpiękniejszych w Polsce, epitafia wybitnych toruńskich rodów patrycjuszowskich, mauzoleum królewny Anny Wazówny.
+					</p>
+					
+				</div>
+				
+				<!-- Trzecia kolumna -->
+				<div class="col-3" id = "tekst" >
+				<img  class = "photo" src="assets/images/ruiny.JPG" />
+					<h1> Ruiny zamku Krzyżackiego </h1>
+					<p>
+					Ruiny zamku krzyżackiego w Toruniu są pozostałościami po pierwszej i jednocześnie najstarszej warowni krzyżackiej na terenie Ziemi Chełmińskiej. Dlatego rozplanowanie zamku toruńskiego (na narysie podkowy) jest inne od typowych zamków krzyżackich na planie czworoboku. Teren zamku o powierzchni ok. 2,2 ha jest jedną z trzech części toruńskiego Średniowiecznego Zespołu Miejskiego, wpisanego na Listę Światowego Dziedzictwa UNESCO. Wybudowany w Toruniu zamek był bazą wypadową do podboju Prusów i tworzenia na ich terenie potężnego państwa zakonnego. Komturski zamek, którego budowę rozpoczęto po połowie XIII wieku, składał się z zamku głównego, międzymurza i przedzamczy (północnego, górnego i dolnego). Zamek został zdobyty w lutym 1454 r. przez mieszczan Starego Miasta Torunia, co było fizycznym rozpoczęciem polsko-krzyżackiej wojny trzynastoletniej.
+					</p>
+					
+				</div>
+				
+
+			</div>
+
+			<div class="row" >
+						<!-- czwarta kolumna -->
+				<div class="col-3" id = "tekst" style = "margin-left: 10%">
+					<img   class = "photo" src="assets/images/teatr.JPG" />
+					<h1> Teatr Williama Horzycy </h1>
+					<p>
+					Budynek wzniesiony został w 1904 roku, dla niemieckiego zespołu teatralnego, przez wiedeńską firmę F. Fellnera i H. Helmera, w stylu secesyjnym. W listopadzie 1920 r. uruchomiono tu polski Państwowy Teatr Narodowy przedstawieniem "Zemsty" Aleksandra Fredry w obecności premiera rządu RP, Wincentego Witosa (chociaż pierwszą powojenną inscenizację  - "Damy i huzary" A. Fredry - zorganizowano w czerwcu tegoż roku). Po II wojnie światowej najwybitniejszą osobowością twórczą teatru (od 1934 r. Teatr Ziemi Pomorskiej) był Wilam Horzyca (dyrektor w latach 1945-48), od 1960 r. patron toruńskiego teatru, jeden z największych inscenizatorów i reformatorów teatru polskiego.
+					</p>
+					
+				</div>
+				
+				<div class="col-3" id = "tekst" >
+					<img   class = "photo" src="assets/images/pomnik.JPG" />
+					<h1> Pomnik Mikołaja Kopernika </h1>
+					<p>
+					Pomnik z 1853 roku wg projektu Friedricha Christiana Tiecka (1776-1851), dyrektora Oddziału Rzeźby Galerii Akademii Sztuk Pięknych w Berlinie. Jeden z najwcześniejszych pomników Kopernika w Polsce i na świecie. Chociaż stoi dopiero od 160 lat, to jednak wydaje się, jakby od zawsze wtopiony był w pejzaż Torunia. W każdym razie nie można sobie wyobrazić Torunia bez pomnika Kopernika. Dziś jest on także ulubionym miejscem spotkań nie tylko mieszkańców, ale i turystów.
+					</p>
+					
+				</div>
+				
+				<div class="col-3" id = "tekst" >
+					<img   class = "photo" src="assets/images/flisak.JPG" />
+					<h1> Pomnik Flisaka </h1>
+					<p>
+					Statuetka grającego na skrzypkach flisaka otoczonego zasłuchanymi żabami, w formie fontanny, jest jednym z symboli Torunia. Symboli, który odwołuje się do nierozerwalnego związku dobrobytu Torunia z Wisłą, która w dziejach miasta była arterią komunikacyjną łączącą Toruń ze światem, a przez to wpływającą na rozwój jego gospodarki i kultury. Flisacy tratwami wiślanymi dostarczali do Torunia z Polski zboża i drewno - podstawowe artykuły handlu toruńskiego aż do XIX w. Dla flisaków Toruń był bardzo ważnym punktem - dla niektórych docelowym, dla innych przerwą w drodze do Gdańska. Pierwotną lokalizacją fontanny Flisaka był dziedziniec Ratusza Staromiejskiego, gdzie wodotrysk założony jeszcze przez Francuzów w 1812 r. dla potrzeb szpitala był czynny do 1890 r.  Dopiero od 1983 r. fontanna Flisaka stoi w obecnym miejscu.
+					</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="row" >
+				<div class="col-3" id = "tekst" style = "margin-left: 10%">
+					<img   class = "photo" src="assets/images/dybów.JPG" />
+						<h1> Zamek Dybów </h1>
+						<p>
+						Był to polski zamek wzniesiony w latach po 1424 r. na mocy decyzji króla Władysława Jagiełły przy granicy Królestwa Polskiego z państwem krzyżackim, jako stacja celna na drodze do krzyżackiego Torunia oraz jako siedziba polskich starostów królewskich, w miejscu gdzie obecna Mała Wisła łączy się z głównym korytem Wisły (obecnie w kujawskiej części Torunia). Jednocześnie ten nadgraniczny zamek miał być demonstracją siły państwa polskiego w okolicznościach dotychczasowych konfliktów zbrojnych polsko-krzyżackich i miał symbolizować trwałość Królestwa Polskiego po tej - kujawskiej stronie Wisły.
+						</p>
+				</div>
+				
+				<div class="col-3" id = "tekst" >
+					<img   class = "photo" src="assets/images/fort.JPG" />
+						<h1> Twierdza Toruń </h1>
+						<p>
+						XIX-wieczna Twierdza Toruń, składająca się z ponad 150 obiektów, w tym 15 dużych fortów, jest jedną z atrakcyjniejszych osobliwości Torunia. Jest niezwykle cennym zabytkiem militarnym w skali europejskiej i jednym z największych systemów fortyfikacyjnych na terenie dzisiejszej Polski, powstałym w XIX w. dla obrony ówczesnej wschodniej granicy Królestwa Prus. W XIX w. (po Kongresie Wiedeńskim w 1815 r.), w okresie zaboru niemieckiego, Toruń stał się twierdzą w znaczeniu warowni państwowej. Na zdjęciu znajduje się najopularniejszy w dzisiejszych czasach fort IV. Do dziś zachowało się w Toruniu ok. 150 budowli obronnych wchodzących w skład tej ogromnej XIX-wiecznej twierdzy. Elementy Twierdzy Toruń otaczają miasto dwoma piescieniami: wewnętrznym i zewnętrznym, na który składa się przede wszystkim 7 dużych fortów głównych, 8 pośrednich, oddalonych od śródmieścia o około 3-3,5 km.
+						</p>
+				</div>
+				
+				<div class="col-3" id = "tekst" >
+					<img   class = "photo" src="assets/images/krzywa.JPG" />
+						<h1> Krzywa wieża </h1>
+						<p>
+						Jest to najciekawsza i najbardziej znana baszta toruńska. Poza tym stanowi najbardziej popularną budowlę architektoniczną Torunia i jedną z turystycznych atrakcji miasta, owianą licznymi legendami. Pochylona ku północy baszta z początku XIV wieku pochyliła się już najprawdopodobniej w tym samym stuleciu na skutek niestabilnego gruntu. Odchylenie od pionu wynosi 146 cm przy 15 m wysokości (od strony ulicy). Baszta stoi w linii murów miejskich i jako taka nie miała nigdy większego znaczenia obronnego. Odgrywała rolę pomocniczej wieży strażniczej, jakich było w Toruniu wiele. Kiedy utraciła swoje walory obronne w XVII-XVIII wieku służyła różnym celom. Tymczasem aż do drugiej połowy XIX wieku opodal istniała druga krzywa wieża.
+						</p>
+				</div>
+			</div>
+				
+			<div class = "row">	
+				<div class="col-3" id = "tekst" style = "margin-left: 10%">
+					<img   class = "photo" src="assets/images/jakuba.JPG" />
+						<h1> Kościół św. Jakuba </h1>
+						<p>
+						Kościół św. Jakuba jest jednym z najznakomitszych przykładów architektury gotyckiej na ziemiach polskich i należy do zabytków klasy światowej. Choć kamień węgielny pod budowę kościoła położono dopiero w 1309 r. - tj. 45 lat po założeniu Nowego Miasta Torunia - to wielu badaczy uznaje, że mieszkańcy tego miasta korzystali z wcześniejszej, tutaj stojącej świątyni drewnianej. Pewne jest natomiast, że budowę obecnego kościoła rozpoczęto w 1309 r. położeniem przez biskupa chełmińskiego Hermana kamienia węgielnego. Fakt ten został upamiętniony wyjątkowym napisem na dekoracyjnym fryzie z gotyckich glazurowanych płytek żółtych i zielonych, który obiega prezbiterium z zewnątrz, jak i wewnątrz. Najstarszą częścią jest prezbiterium, zbudowane do roku 1320.
+						</p>
+				</div>
+				
+				<div class="col-3" id = "tekst" >
+					<img   class = "photo" src="assets/images/świętojański.JPG" />
+						<h1> Katedra Świętojańska </h1>
+						<p>
+						Kościół Świętojański (św. Jana Chrzciciela i św. Jana Ewangelisty) to najstarsza i najważniejsza świątynia Torunia i diecezji toruńskiej. Jest jednym z największych gotyckich kościołów w Polsce, reprezentuje typ tzw. wysokiej hali. Poprzez swoje monumentalne założenie należy do największych i najcenniejszych zabytków klasy światowej, odzwierciedla aspiracje średniowiecznego, zamożnego patrycjatu toruńskiego i wysoką ekonomiczną rangę Torunia w hanzeatyckiej Europie, jednego z największych ówcześnie miast Europy Środkowej. Jest najstarszą budowlą ceglaną dawnego państwa krzyżackiego. Stanowi pomnik świetności Torunia i skarbnicę dzieł sztuki. Tutaj też od 1500 r. wisi największy średniowieczny dzwon w środkowej Europie - słynny Tuba Dei.
+						</p>
+				</div>
+				
+				<div class="col-3" id = "tekst" >
+					<img   class = "photo" src="assets/images/katarzyny.JPG" />
+						<h1> Kościół św. Katarzyny </h1>
+						<p>
+						Kościół stoi pośrodku placu św. Katarzyny, który jest centralną częścią wytyczonej w końcu XIX w. - za czasów zaboru pruskiego - wojskowej dzielnicy Wilhelmstadt, na miejscu dawnego, średniowiecznego Przedmieścia Św. Katarzyny, poza obrębem dawnych murów miejskich Nowego Miasta Torunia i od początku jest kościołem garnizonowym. Został zbudowany w stylu neogotyckim w końcu XIX wieku, ale tradycją i wezwaniem nawiązuje do średniowiecznej kaplicy św. Katarzyny, którą Rada Nowego Miasta ufundowała w tym miejscu około 1360 r., a którą rozebrano w 1814 r. W architekturze wyróżnia go wysmukłość sylwetki z wysoką, masywną wieżą (86 m). Jest to najwyższa wieża w Toruniu.
+						</p>
+				</div>
+				
+				
+				
+				
+			</div>
+			
+			
+			
+		</div>
+		
+		<!--  https://torun.pl/pl/turystyka/tylko-w-toruniu/wislana-panorama-torunia  https://pl.wikipedia.org/wiki/Ratusz_Staromiejski_w_Toruniu      https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Marii_Panny_w_Toruniu    https://wakacjezdzieciakiem.pl/polska/87-woj-kujawsko-pomorskie/321-torun-zamek-krzyzacki.html     https://pl.wikipedia.org/wiki/Teatr_im._Wilama_Horzycy_w_Toruniu https://visittorun.com/pl/content/pomnik-miko%C5%82aja-kopernika      https://mapy.emiejsca.pl/torun-14336,foto.html https://www.zamkipolskie.com/dybow/dybow.html   https://visittorun.com/pl/content/fort-iv-twierdza-toru%C5%84   https://www.torun.pl/pl/turystyka/zwiedzanie-miasta/zabytki/krzywa-wieza   http://toruntour.pl/2061/kosciol-sw-jakuba-torun   http://toruntour.pl/2031/torun-katedra-swietojanska  https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Katarzyny_w_Toruniu    https://www.zeitverschiebung.net/en/clock-widget?size=small   http://www.turystyka.torun.pl/art/63/zabytki-torunia.html-->
+		 
+		<div class="container" id="sekcja3">
+			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MiaHnbkueip9989O0yOSoS-mfyh8mlNB" width="50%" height="700" id = "mapa"></iframe>
+				</div>
+			 
+		
+		<!-- Formularz kontaktowy -->
+		<div class="container" id="sekcja4">
+			<h1>Formularz kontaktowy</h1>
+			
+			<form>
+				<div class="form-group">
+					<label for="form-email">Adres E-mail:</label>
+					<input class="form-control" id="form-email" type="email" placeholder="example@mail.com">
+				</div>
+				
+				<div class="form-group">
+					<label for="form-name">Imię:</label>
+					<input class="form-control" id="form-name" type="text">
+				</div>
+				
+				<div class="form-group">
+					<label for="form-surname">Nazwisko:</label>
+					<input class="form-control" id="form-surname" type="text">
+				</div>
+				
+				<button onclick="formularz()" type="submit" class="btn btn-primary">Wyślij</button>
+			</form>
+		</div>
+		
+		<!-- Stopka -->
+		<footer class="footer">
+			Designed by: Hubert Zientara
+		</footer>
+		
+		<!-- Podłączamy plik javascript z biblioteki do naszej strony -->
+		<script src="assets/js/grid-gallery.min.js"></script>
+		
+		<script>	
+			function formularz() {
+				var adresEmail;
+				adresEmail = $("#form-email").val();
+				alert(adresEmail);
+				/*var imie;
+				imie = $("#form-name").val();
+				
+				if(imie == "") {
+					alert("Brak imienia!");
+				} else {
+					alert("OK");
+				}*/
+			}
+		
+			gridGallery({
+				selector: "#galeria1",
+				darkMode: true,
+				layout: "square"
+			});
+			
+		</script>
+		
+		<!-- cookies -->
+		
+		<div id="compsoul-cookies" class="compsoul-cookies content">
+			<p>Szukając zegar na stronę, rzuciła mi się w oczy informacja o tym, aby powiadomić użytkownika o plikach cookies, więc stwierdziłem, że i na mojej stronie takowe będą :) Skrypty oraz biblioteki zaczerpnąłem z  <a href="http://blog.compsoul.pl/liseblog/komunikat-o-plikach-cookies/57.html" target="_blank">tej strony</a>.</p>
+			<button>Świetny pomysł! Napewno wstawię ci 6 :)</button>
+		</div>
+		
+		<script src="assets/js/comp.js"></script>
+		<script src="assets/js/storage.js"></script>
+		<script>
+			(function ($) {
+				$("#compsoul-cookies").storage({
+				name : "cookies",
+				element : "#compsoul-cookies button",
+				event : "click"
+				});
+			})(Comp);
+    </script>
+		
+	</body>
+</html>
